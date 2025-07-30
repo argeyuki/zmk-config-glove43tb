@@ -120,11 +120,13 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                        &none            &trans    &msc MOVE_Y(15)   &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &mkp MB5  &msc MOVE_Y(15)  &mkp MB1  &mkp MB3          &mkp MB2  &msc MOVE_Y(-15)
-&trans  &trans  &trans  &trans  &trans  &trans      &mkp MB4  &none            &trans    &msc MOVE_Y(-15)  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans                                                 &trans
+&trans  &trans  &trans  &trans  &trans                        &none            &trans    &msc MOVE_Y(15)  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &mkp MB5  &msc MOVE_Y(15)  &mkp MB1  &mkp MB3         &mkp MB2  &msc MOVE_Y(-15)
+&trans  &trans  &trans  &trans  &trans  &trans      &mkp MB4  &none            &trans    &msc MOVE_Y(20)  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans                                                &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LG(K_SCROLL_UP) K_SCROLL_DOWN>;
         };
 
         SCROLL {
