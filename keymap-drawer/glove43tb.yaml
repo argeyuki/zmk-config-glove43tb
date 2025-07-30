@@ -183,9 +183,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - {t: ▽, type: trans}
-  - '&msc MOVE_Y(15)'
-  - {t: ▽, type: trans}
+  - '&msc MOVE_X(-20)'
+  - '&msc MOVE_Y(-20)'
+  - '&msc MOVE_X(20)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -194,11 +194,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB5'
-  - '&msc MOVE_Y(15)'
+  - '&mkp MB5'
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - '&msc MOVE_Y(-15)'
+  - ''
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - LEFT ARROW
@@ -206,7 +206,7 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - '&mkp MB4'
-  - ''
+  - '&mkp MB4'
   - {t: ▽, type: trans}
   - '&msc MOVE_Y(20)'
   - {t: ▽, type: trans}
