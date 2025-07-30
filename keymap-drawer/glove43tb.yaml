@@ -34,9 +34,9 @@ layers:
   - M
   - ','
   - .
-  - /
-  - LCTRL
-  - LEFT WIN
+  - Sft+/
+  - LEFT COMMAND
+  - LEFT CONTROL
   - LEFT ALT
   - {t: '&to_layer_0 INT_HENKAN', h: '6'}
   - {t: SPACE, h: NUM}
