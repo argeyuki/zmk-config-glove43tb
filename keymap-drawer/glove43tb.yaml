@@ -337,7 +337,7 @@ layers:
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ':'
   - {t: '0', h: toggle}
   - '7'
   - '8'
@@ -347,7 +347,7 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - {type: held}
-  - {t: ▽, type: trans}
+  - SPACE
   - {t: ▽, type: trans}
   - BACKSPACE
   - DEL
