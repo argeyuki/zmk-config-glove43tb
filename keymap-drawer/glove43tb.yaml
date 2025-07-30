@@ -38,9 +38,9 @@ layers:
   - LEFT COMMAND
   - LEFT CONTROL
   - LEFT ALT
-  - {t: LANG ZENKAKUHANKAKU, h: '7'}
+  - {t: INT MUHENKAN, h: '7'}
   - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
+  - {t: '&to_layer_0 LANG_ZENKAKUHANKAKU', h: ARROW}
   - BACKSPACE
   - {t: DEL, h: FUNCTION}
   - ENTER
