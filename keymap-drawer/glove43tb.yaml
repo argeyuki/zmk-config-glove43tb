@@ -190,7 +190,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB5'
@@ -199,11 +199,11 @@ layers:
   - '&mkp MB3'
   - '&mkp MB2'
   - '&msc MOVE_Y(-15)'
+  - LEFT SHIFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - '&mkp MB4'
   - ''
@@ -211,9 +211,9 @@ layers:
   - '&msc MOVE_Y(20)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LWIN
+  - LEFT CONTROL
+  - RIGHT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
