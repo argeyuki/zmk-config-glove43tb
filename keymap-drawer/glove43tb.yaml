@@ -34,7 +34,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: toggle}
+  - /
   - LEFT COMMAND
   - LEFT CONTROL
   - LEFT ALT
