@@ -208,7 +208,7 @@ layers:
   - '&mkp MB4'
   - ''
   - {t: ▽, type: trans}
-  - '&msc MOVE_Y(-15)'
+  - '&msc MOVE_Y(20)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
