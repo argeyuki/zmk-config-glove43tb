@@ -100,10 +100,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp EXCL         &kp AT           &kp HASH         &kp DLLR                                                 &kp CARET             &kp AMPERSAND          &kp TILDE         &kp LEFT_BRACE     &kp RIGHT_BRACE
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &none            &kp DQT     &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION       &kp AT_SIGN            &kp HASH          &kp DOLLAR         &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp EQUAL                    &trans          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans      &trans                       &trans          &trans                                                                            &kp PIPE
+&kp MINUS       &kp EXCL   &kp AT        &kp HASH  &kp DLLR                                                 &kp CARET             &kp AMPERSAND          &kp TILDE         &kp LEFT_BRACE     &kp RIGHT_BRACE
+&kp SLASH       &none      &none         &none     &kp DQT     &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION       &kp AT_SIGN            &kp HASH          &kp DOLLAR         &kp PERCENT
+&kp LEFT_SHIFT  &none      &none         &none     &kp PERIOD  &kp EQUAL                    &trans          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp LEFT_GUI    &kp CARET  &kp LEFT_ALT  &trans    &trans      &trans                       &trans          &trans                                                                            &kp PIPE
             >;
         };
 
@@ -150,7 +150,7 @@
         layer_7 {
             bindings = <
 &kp ESC           &trans            &trans          &trans            &trans                                                       &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp ASTERISK
-&kp TAB           &trans            &none           &kp UP_ARROW      &trans           &trans                       &kp COLON      &kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS
+&kp TAB           &trans            &none           &kp UP_ARROW      &kp DQT          &trans                       &kp COLON      &kp SLASH  &kp N4  &kp N5  &kp N6  &kp MINUS
 &kp LEFT_SHIFT    &none             &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &trans                       &kp DOT        &kp N0     &kp N7  &kp N8  &kp N9  &kp PLUS
 &kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp LEFT_ALT    &kp INT_MUHENKAN  &kp SPACE        &kp LANG_ZENKAKUHANKAKU      &kp BACKSPACE  &kp DEL                            &kp ENTER
             >;
