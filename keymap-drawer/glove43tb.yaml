@@ -321,8 +321,8 @@ layers:
   - '*'
   - TAB
   - {t: ▽, type: trans}
+  - ''
   - UP ARROW
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ':'
@@ -332,10 +332,10 @@ layers:
   - '6'
   - '-'
   - LEFT SHIFT
+  - ''
   - LEFT ARROW
   - DOWN ARROW
-  - RIGHT
-  - {t: ▽, type: trans}
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - .
   - '0'
