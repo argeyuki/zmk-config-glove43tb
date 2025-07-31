@@ -100,8 +100,8 @@ layers:
   - '{'
   - '}'
   - /
-  - KP 4
-  - KP 5
+  - ''
+  - ''
   - ''
   - '"'
   - Ctl+Alt+KP 0
@@ -111,10 +111,10 @@ layers:
   - '#'
   - $
   - '%'
-  - {t: KP 0, h: LEFT SHIFT}
-  - KP 1
-  - KP 2
-  - KP 3
+  - LEFT SHIFT
+  - ''
+  - ''
+  - ''
   - .
   - '='
   - {t: ▽, type: trans}
@@ -123,9 +123,9 @@ layers:
   - '['
   - ']'
   - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT GUI
+  - ^
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -323,7 +323,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - UP ARROW
-  - {t: ▽, type: trans}
+  - '"'
   - {t: ▽, type: trans}
   - ':'
   - /
