@@ -194,7 +194,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB5'
-  - '&mkp MB5'
+  - ''
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
@@ -206,7 +206,7 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - '&mkp MB4'
-  - '&mkp MB4'
+  - ''
   - {t: ▽, type: trans}
   - '&msc MOVE_Y(20)'
   - {t: ▽, type: trans}
