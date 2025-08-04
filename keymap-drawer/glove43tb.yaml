@@ -34,7 +34,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: LEFT SHIFT}
   - LEFT COMMAND
   - LEFT CONTROL
   - LEFT ALT
@@ -42,8 +42,8 @@ layers:
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 LANG_ZENKAKUHANKAKU', h: ARROW}
   - BACKSPACE
-  - {t: DEL, h: FUNCTION}
   - ENTER
+  - {t: DELETE, h: FUNCTION}
   FUNCTION:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,8 +86,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - F12
+  - {t: ▽, type: trans}
+  - {t: F12, type: held}
   NUM:
   - '-'
   - '!'
