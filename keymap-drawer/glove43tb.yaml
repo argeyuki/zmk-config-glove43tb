@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - ''''
+  - {t: '''', h: SCROLL}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -241,7 +241,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp LCLK'
   - {t: ▽, type: trans}
-  - '&mkp MB2'
+  - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
