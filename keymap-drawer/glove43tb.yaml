@@ -198,7 +198,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - ''
+  - {t: SPACE, h: SCROLL}
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - LEFT ARROW
