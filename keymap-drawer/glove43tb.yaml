@@ -240,7 +240,7 @@ layers:
   - '&mkp MB4'
   - {t: ▽, type: trans}
   - '&mkp LCLK'
-  - {t: ▽, type: trans}
+  - UP ARROW
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -251,9 +251,9 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB5'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
