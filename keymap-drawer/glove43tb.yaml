@@ -85,8 +85,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - TAB
   - SPACE
+  - ENTER
   - {type: held}
   NUM:
   - '-'
