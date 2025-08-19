@@ -307,7 +307,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB4'
   - '&mkp MB5'
-  - ^
+  - ''
   '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
