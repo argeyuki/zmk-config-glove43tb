@@ -38,13 +38,13 @@ layers:
   - LEFT COMMAND
   - LEFT CONTROL
   - LEFT ALT
-  - {t: INT MUHENKAN, h: '7'}
+  - {t: INT MUHENKAN, h: 'number,arrow'}
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 RG(SPACE)', h: ARROW}
   - BACKSPACE
   - ENTER
   - {t: DELETE, h: FUNCTION}
-  '7':
+  number,arrow:
   - ESC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
