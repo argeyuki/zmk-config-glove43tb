@@ -118,10 +118,10 @@
 
         MOUSE {
             bindings = <
-&trans          &trans            &trans          &trans        &trans                                 &none   &msc MOVE_X(-20)  &msc MOVE_Y(-20)  &msc MOVE_X(20)  &trans
-&trans          &trans            &trans          &kp UP_ARROW  &trans           &trans      &mkp MB5  &none   &mkp MB1          &mkp MB3          &mkp MB2         &lt 6 SPACE
-&kp LEFT_SHIFT  &trans            &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &trans      &mkp MB4  &none   &trans            &msc MOVE_Y(20)   &trans           &trans
-&kp LWIN        &kp LEFT_CONTROL  &kp RIGHT_ALT   &trans        &trans           &trans      &trans    &trans                                                       &trans
+&trans          &trans            &trans          &trans        &trans                                 &none     &msc MOVE_X(-20)  &msc MOVE_Y(-20)  &msc MOVE_X(20)  &trans
+&trans          &trans            &trans          &kp UP_ARROW  &trans           &trans      &mkp MB5  &none     &mkp MB1          &mkp MB3          &mkp MB2         &lt 6 SPACE
+&kp LEFT_SHIFT  &trans            &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &trans      &mkp MB4  &none     &trans            &msc MOVE_Y(20)   &trans           &trans
+&kp LWIN        &kp LEFT_CONTROL  &kp RIGHT_ALT   &trans        &trans           &trans      &mkp MB4  &mkp MB5                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LG(K_SCROLL_UP) K_SCROLL_DOWN>;
