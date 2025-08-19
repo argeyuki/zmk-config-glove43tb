@@ -40,54 +40,54 @@ layers:
   - LEFT ALT
   - {t: INT MUHENKAN, h: '7'}
   - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 LANG_ZENKAKUHANKAKU', h: ARROW}
+  - {t: '&to_layer_0 RG(SPACE)', h: ARROW}
   - BACKSPACE
   - ENTER
   - {t: DELETE, h: FUNCTION}
-  FUNCTION:
+  '7':
+  - ESC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '='
+  - '1'
+  - '2'
+  - '3'
+  - '*'
+  - TAB
   - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F6
-  - F7
-  - F8
+  - ''
   - UP ARROW
-  - F9
-  - F10
+  - '"'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F10
-  - F11
+  - ':'
+  - /
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - LEFT SHIFT
+  - ''
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - F12
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - .
+  - '0'
+  - '7'
+  - '8'
+  - '9'
+  - +
+  - LEFT COMMAND
+  - LEFT CONTROL
+  - LEFT ALT
+  - {t: INT MUHENKAN, type: held}
   - SPACE
+  - LANG ZENKAKUHANKAKU
+  - BACKSPACE
+  - DEL
   - ENTER
-  - {type: held}
   NUM:
   - '-'
   - '!'
@@ -132,50 +132,50 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '|'
-  ARROW:
-  - ESCAPE
-  - Ctl+Sft+TAB
+  FUNCTION:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
   - UP ARROW
-  - Ctl+TAB
+  - F9
+  - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HOME
+  - F10
+  - F11
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - END
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
-  - {t: ▽, type: trans}
-  - Gui+Sft+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RIGHT COMMAND
-  - LEFT CONTROL
-  - LEFT ALT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SPACE
+  - ENTER
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -217,6 +217,50 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  ARROW:
+  - ESCAPE
+  - Ctl+Sft+TAB
+  - UP ARROW
+  - Ctl+TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - Gui+Sft+LEFT ARROW
+  - {t: ▽, type: trans}
+  - Gui+Sft+RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RIGHT COMMAND
+  - LEFT CONTROL
+  - LEFT ALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -308,50 +352,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
-  '7':
-  - ESC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '='
-  - '1'
-  - '2'
-  - '3'
-  - '*'
-  - TAB
-  - {t: ▽, type: trans}
-  - ''
-  - UP ARROW
-  - '"'
-  - {t: ▽, type: trans}
-  - ':'
-  - /
-  - '4'
-  - '5'
-  - '6'
-  - '-'
-  - LEFT SHIFT
-  - ''
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - .
-  - '0'
-  - '7'
-  - '8'
-  - '9'
-  - +
-  - LEFT COMMAND
-  - LEFT CONTROL
-  - LEFT ALT
-  - {t: INT MUHENKAN, type: held}
-  - SPACE
-  - LANG ZENKAKUHANKAKU
-  - BACKSPACE
-  - DEL
-  - ENTER
 combos:
 - p: [11, 12]
   k: TAB
