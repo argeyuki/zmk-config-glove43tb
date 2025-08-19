@@ -9,7 +9,7 @@ layers:
   - Y
   - U
   - I
-  - O
+  - {t: O, h: '-'}
   - P
   - A
   - S
@@ -21,7 +21,7 @@ layers:
   - H
   - J
   - K
-  - L
+  - {t: L, h: toggle}
   - {t: '''', h: SCROLL}
   - {t: Z, h: LEFT SHIFT}
   - X
