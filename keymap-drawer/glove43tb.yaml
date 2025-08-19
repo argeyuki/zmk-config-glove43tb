@@ -152,7 +152,7 @@ layers:
   - F6
   - F7
   - F8
-  - UP ARROW
+  - {t: UP ARROW, h: Ctl+UP ARROW}
   - F9
   - F10
   - {t: ▽, type: trans}
@@ -163,9 +163,9 @@ layers:
   - {t: ▽, type: trans}
   - F10
   - F11
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - {t: LEFT ARROW, h: Ctl+LEFT ARROW}
+  - {t: DOWN ARROW, h: Ctl+DOWN ARROW}
+  - {t: RIGHT ARROW, h: Ctl+RIGHT ARROW}
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
