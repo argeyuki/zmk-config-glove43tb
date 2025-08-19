@@ -281,7 +281,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB4'
+  - ''
   - {t: ▽, type: trans}
   - '&mkp LCLK'
   - UP ARROW
@@ -293,7 +293,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB5'
+  - ''
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
@@ -305,9 +305,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RIGHT CONTROL
-  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - ^
   '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
