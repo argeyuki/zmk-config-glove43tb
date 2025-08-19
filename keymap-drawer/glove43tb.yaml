@@ -183,9 +183,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - '&msc MOVE_X(-30)'
-  - '&msc MOVE_Y(-30)'
-  - '&msc MOVE_X(30)'
+  - '&msc MOVE_X(-50)'
+  - '&msc MOVE_Y(-50)'
+  - '&msc MOVE_X(50)'
   - {t: ▽, type: trans}
   - TAB
   - {t: ▽, type: trans}
@@ -208,7 +208,7 @@ layers:
   - '&mkp MB4'
   - ''
   - {t: ▽, type: trans}
-  - '&msc MOVE_Y(30)'
+  - '&msc MOVE_Y(50)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LWIN
