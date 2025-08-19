@@ -187,7 +187,7 @@ layers:
   - '&msc MOVE_Y(-20)'
   - '&msc MOVE_X(20)'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
