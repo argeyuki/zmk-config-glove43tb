@@ -140,7 +140,7 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                        &trans    &trans                         &kp RG(R)                      &trans                           &trans
+&trans  &trans  &trans  &trans  &trans                        &trans    &kp RG(R)                      &none                          &trans                           &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &none     &trans    &mkp LCLK                      &mt RC(UP_ARROW) UP_ARROW      &mkp RCLK                        &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &none     &trans    &mt RC(LEFT_ARROW) LEFT_ARROW  &mt RC(DOWN_ARROW) DOWN_ARROW  &mt RC(RIGHT_ARROW) RIGHT_ARROW  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &mkp MB4  &mkp MB5                                                                                                 &none
