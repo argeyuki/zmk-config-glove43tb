@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&mt ESC Q         &kp W             &kp E         &kp R            &kp T                                                             &mt LG(EQUAL) Y  &kp U  &kp I      &mt MINUS O  &mt QUESTION P
-&mt AT A          &kp S             &kp D         &kp F            &kp G        &kp LS(LG(S))                   &mt COLON MINUS      &kp H            &kp J  &kp K      &kp L        &lt 6 APOS
-&mt LEFT_SHIFT Z  &kp X             &kp C         &kp V            &kp B        &mt AT SEMI                     &mt QMARK BACKSPACE  &kp N            &kp M  &kp COMMA  &kp DOT      &mt LEFT_SHIFT SLASH
-&kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 LG(SPACE)  &lt 2 SPACE  &lt_to_layer_0 5 RG(SPACE)      &kp SPACE            &lt 1 ENTER                                     &lt 3 DELETE
+&mt ESC Q         &kp W             &kp E         &kp R            &kp T                                                             &mt EQUAL Y  &kp U  &kp I      &mt MINUS O  &mt QUESTION P
+&mt AT A          &kp S             &kp D         &kp F            &kp G        &kp LS(LG(S))                   &mt COLON MINUS      &kp H        &kp J  &kp K      &kp L        &lt 6 APOS
+&mt LEFT_SHIFT Z  &kp X             &kp C         &kp V            &kp B        &mt AT SEMI                     &mt QMARK BACKSPACE  &kp N        &kp M  &kp COMMA  &kp DOT      &mt LEFT_SHIFT SLASH
+&kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 LG(SPACE)  &lt 2 SPACE  &lt_to_layer_0 5 RG(SPACE)      &kp SPACE            &lt 1 ENTER                                 &lt 3 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -118,10 +118,10 @@
 
         MOUSE {
             bindings = <
-&trans          &trans            &trans          &trans        &trans                                 &none     &msc MOVE_X(-40)  &msc MOVE_Y(-40)  &msc MOVE_X(40)  &trans
-&kp TAB         &trans            &trans          &kp UP_ARROW  &trans           &trans      &mkp MB5  &none     &mkp MB1          &mkp MB3          &mkp MB2         &lt 6 SPACE
-&kp LEFT_SHIFT  &trans            &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &trans      &mkp MB4  &none     &trans            &msc MOVE_Y(40)   &trans           &trans
-&kp LWIN        &kp LEFT_CONTROL  &kp RIGHT_ALT   &trans        &trans           &trans      &mkp MB4  &mkp MB5                                                       &trans
+&trans          &trans                         &trans                         &trans                           &trans                        &none     &msc MOVE_X(-40)  &msc MOVE_Y(-40)  &msc MOVE_X(40)  &trans
+&kp TAB         &trans                         &mt RC(UP_ARROW) UP_ARROW      &none                            &trans  &trans      &mkp MB5  &none     &mkp MB1          &mkp MB3          &mkp MB2         &lt 6 SPACE
+&kp LEFT_SHIFT  &mt RC(LEFT_ARROW) LEFT_ARROW  &mt RC(DOWN_ARROW) DOWN_ARROW  &mt RC(RIGHT_ARROW) RIGHT_ARROW  &none   &trans      &mkp MB4  &none     &trans            &msc MOVE_Y(40)   &trans           &trans
+&kp LWIN        &kp LEFT_CONTROL               &kp RIGHT_ALT                  &trans                           &trans  &trans      &mkp MB4  &mkp MB5                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LG(K_SCROLL_UP) K_SCROLL_DOWN>;
