@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - Sft+Gui+S
-  - '-'
+  - {t: '-', h: ':'}
   - H
   - J
   - K
@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - {t: ;, h: '@'}
-  - {t: ':', h: '?'}
+  - {t: BACKSPACE, h: '?'}
   - N
   - M
   - ','
@@ -41,7 +41,7 @@ layers:
   - {t: Gui+SPACE, h: 'number,arrow'}
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 RG(SPACE)', h: ARROW}
-  - BACKSPACE
+  - SPACE
   - {t: ENTER, h: 'number,arrow'}
   - {t: DELETE, h: FUNCTION}
   number,arrow:
