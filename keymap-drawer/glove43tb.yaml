@@ -6,7 +6,7 @@ layers:
   - E
   - R
   - T
-  - {t: Y, h: Gui+=}
+  - {t: Y, h: '='}
   - U
   - I
   - {t: O, h: '-'}
@@ -57,8 +57,8 @@ layers:
   - '*'
   - TAB
   - {t: ▽, type: trans}
+  - {t: UP ARROW, h: Ctl+UP ARROW}
   - ''
-  - UP ARROW
   - '"'
   - {t: ▽, type: trans}
   - ':'
@@ -68,10 +68,10 @@ layers:
   - '6'
   - '-'
   - LEFT SHIFT
+  - {t: LEFT ARROW, h: Ctl+LEFT ARROW}
+  - {t: DOWN ARROW, h: Ctl+DOWN ARROW}
+  - {t: RIGHT ARROW, h: Ctl+RIGHT ARROW}
   - ''
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
   - {t: ▽, type: trans}
   - .
   - '0'
@@ -82,11 +82,11 @@ layers:
   - LEFT COMMAND
   - LEFT CONTROL
   - LEFT ALT
-  - {t: INT MUHENKAN, type: held}
+  - {type: held}
   - SPACE
-  - LANG ZENKAKUHANKAKU
+  - Gui+SPACE
   - BACKSPACE
-  - DEL
+  - ''
   - ENTER
   NUM:
   - '-'
@@ -189,8 +189,8 @@ layers:
   - {t: ▽, type: trans}
   - TAB
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - UP ARROW
+  - {t: UP ARROW, h: Ctl+UP ARROW}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB5'
@@ -200,10 +200,10 @@ layers:
   - '&mkp MB2'
   - {t: SPACE, h: SCROLL}
   - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN
-  - RIGHT ARROW
+  - {t: LEFT ARROW, h: Ctl+LEFT ARROW}
+  - {t: DOWN ARROW, h: Ctl+DOWN ARROW}
+  - {t: RIGHT ARROW, h: Ctl+RIGHT ARROW}
+  - ''
   - {t: ▽, type: trans}
   - '&mkp MB4'
   - ''
