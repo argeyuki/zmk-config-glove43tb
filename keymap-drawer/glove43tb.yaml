@@ -87,7 +87,7 @@ layers:
   - Gui+SPACE
   - BACKSPACE
   - ''
-  - ENTER
+  - TAB
   NUM:
   - '-'
   - '!'
