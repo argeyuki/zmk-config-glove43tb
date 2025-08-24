@@ -2,7 +2,7 @@ layout: {zmk_keyboard: glove43tb}
 layers:
   default:
   - {t: Q, h: ESC}
-  - W
+  - {t: W, h: '@'}
   - E
   - R
   - T
@@ -11,7 +11,7 @@ layers:
   - I
   - {t: O, h: '-'}
   - {t: P, h: '?'}
-  - {t: A, h: '@'}
+  - {t: A, h: TAB}
   - S
   - D
   - F
@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - {t: ;, h: '@'}
-  - {t: BACKSPACE, h: '?'}
+  - {t: SPACE, h: '?'}
   - N
   - M
   - ','
@@ -40,8 +40,8 @@ layers:
   - LEFT ALT
   - {t: Gui+SPACE, h: 'number,arrow'}
   - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 RG(SPACE)', h: ARROW}
-  - SPACE
+  - {t: '&to_layer_0 DELETE', h: ARROW}
+  - BACKSPACE
   - {t: ENTER, h: 'number,arrow'}
   - {t: DELETE, h: FUNCTION}
   number,arrow:
