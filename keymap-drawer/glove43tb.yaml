@@ -304,7 +304,7 @@ layers:
   - LEFT ALT
   - {t: Gui+SPACE, h: 'number,arrow'}
   - {t: SPACE, h: NUM}
-  - {t: ▽, type: trans}
+  - TAB
   - '&mkp MB4'
   - '&mkp MB5'
   - ''
