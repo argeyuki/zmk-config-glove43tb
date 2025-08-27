@@ -299,9 +299,9 @@ layers:
   - {t: DOWN ARROW, h: Ctl+DOWN ARROW}
   - {t: RIGHT ARROW, h: Ctl+RIGHT ARROW}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT COMMAND
+  - LEFT CONTROL
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
