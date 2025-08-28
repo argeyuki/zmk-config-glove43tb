@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - {t: ;, h: '@'}
-  - {t: SPACE, h: '?'}
+  - {t: Sft+SPACE, h: '?'}
   - N
   - M
   - ','
@@ -39,8 +39,8 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - {t: Gui+SPACE, h: 'number,arrow'}
-  - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 TAB', h: ARROW}
+  - {t: Sft+SPACE, h: NUM}
+  - {t: '&to_layer_0 SPACE', h: ARROW}
   - BACKSPACE
   - {t: ENTER, h: 'number,arrow'}
   - {t: DELETE, h: FUNCTION}
@@ -83,7 +83,7 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - {type: held}
-  - SPACE
+  - Sft+SPACE
   - Gui+SPACE
   - BACKSPACE
   - ''
