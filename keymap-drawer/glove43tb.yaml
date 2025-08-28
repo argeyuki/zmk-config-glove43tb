@@ -52,8 +52,8 @@ layers:
   - ''
   - '='
   - KP 1
-  - '2'
-  - '3'
+  - KP 2
+  - KP 3
   - '*'
   - TAB
   - {t: ▽, type: trans}
@@ -63,9 +63,9 @@ layers:
   - {t: ▽, type: trans}
   - ':'
   - /
-  - '4'
-  - '5'
-  - '6'
+  - KP 4
+  - KP 5
+  - KP 6
   - '-'
   - LEFT SHIFT
   - {t: LEFT ARROW, h: Ctl+LEFT ARROW}
@@ -74,10 +74,10 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - .
-  - '0'
-  - '7'
-  - '8'
-  - '9'
+  - KP 0
+  - KP 7
+  - KP 8
+  - KP 9
   - +
   - LEFT COMMAND
   - LEFT CONTROL
