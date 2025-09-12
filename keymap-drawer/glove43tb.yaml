@@ -66,7 +66,7 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - '-'
+  - {t: '-', h: '~'}
   - LEFT SHIFT
   - {t: LEFT ARROW, h: Ctl+LEFT ARROW}
   - {t: DOWN ARROW, h: Ctl+DOWN ARROW}
