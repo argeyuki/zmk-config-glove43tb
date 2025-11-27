@@ -177,7 +177,7 @@ layers:
   - ENTER
   - {type: held}
   MOUSE:
-  - {t: ▽, type: trans}
+  - ESC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
