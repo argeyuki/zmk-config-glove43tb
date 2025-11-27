@@ -163,7 +163,7 @@
 
         MOUSE {
             bindings = <
-&trans          &trans                         &trans                         &trans                           &trans                        &none     &msc MOVE_X(-40)  &msc MOVE_Y(-40)  &msc MOVE_X(40)  &trans
+&kp ESC         &trans                         &trans                         &trans                           &trans                        &none     &msc MOVE_X(-40)  &msc MOVE_Y(-40)  &msc MOVE_X(40)  &trans
 &kp TAB         &trans                         &mt RC(UP_ARROW) UP_ARROW      &none                            &trans  &trans      &mkp MB5  &none     &mkp MB1          &mkp MB3          &mkp MB2         &lt 6 SPACE
 &kp LEFT_SHIFT  &mt RC(LEFT_ARROW) LEFT_ARROW  &mt RC(DOWN_ARROW) DOWN_ARROW  &mt RC(RIGHT_ARROW) RIGHT_ARROW  &none   &trans      &mkp MB4  &none     &trans            &msc MOVE_Y(40)   &trans           &trans
 &kp LWIN        &kp LEFT_CONTROL               &kp RIGHT_ALT                  &trans                           &trans  &trans      &mkp MB4  &mkp MB5                                                       &trans
