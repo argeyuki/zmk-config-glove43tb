@@ -54,7 +54,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - '*'
+  - KP ASTERISK
   - TAB
   - {t: ▽, type: trans}
   - {t: UP ARROW, h: Ctl+UP ARROW}
@@ -66,19 +66,19 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - {t: '-', h: '~'}
+  - {t: KP MINUS, h: '~'}
   - LEFT SHIFT
   - {t: LEFT ARROW, h: Ctl+LEFT ARROW}
   - {t: DOWN ARROW, h: Ctl+DOWN ARROW}
   - {t: RIGHT ARROW, h: Ctl+RIGHT ARROW}
   - ''
   - {t: ▽, type: trans}
-  - .
+  - KP DOT
   - KP 0
   - KP 7
   - KP 8
   - KP 9
-  - +
+  - KP PLUS
   - LEFT COMMAND
   - LEFT CONTROL
   - LEFT ALT
