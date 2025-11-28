@@ -2,7 +2,7 @@ layout: {zmk_keyboard: glove43tb}
 layers:
   default:
   - {t: Q, h: ESC}
-  - {t: W, h: '@'}
+  - W
   - E
   - R
   - {t: T, h: '!'}
@@ -21,7 +21,7 @@ layers:
   - H
   - J
   - K
-  - L
+  - {t: L, h: '@'}
   - {t: '''', h: SCROLL}
   - {t: Z, h: LEFT SHIFT}
   - X
