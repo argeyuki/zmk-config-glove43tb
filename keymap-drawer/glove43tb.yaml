@@ -32,8 +32,8 @@ layers:
   - {t: Sft+SPACE, h: '?'}
   - N
   - M
-  - ','
-  - .
+  - {t: ',', h: (}
+  - {t: ., h: )}
   - {t: /, h: LEFT SHIFT}
   - LEFT COMMAND
   - LEFT CONTROL
