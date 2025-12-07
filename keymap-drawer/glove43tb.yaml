@@ -2,7 +2,7 @@ layout: {zmk_keyboard: glove43tb}
 layers:
   default:
   - {t: Q, h: ESC}
-  - W
+  - {t: W, h: '"'}
   - E
   - R
   - {t: T, h: '!'}
