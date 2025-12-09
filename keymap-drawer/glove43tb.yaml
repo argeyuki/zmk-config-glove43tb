@@ -38,7 +38,7 @@ layers:
   - LEFT COMMAND
   - LEFT CONTROL
   - LEFT ALT
-  - {t: Ctl+Sft+;, h: 'number,arrow'}
+  - {t: Ctl+Sft+', h: 'number,arrow'}
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 LC(LS(LG(NUMBER_4)))', h: ARROW}
   - BACKSPACE
