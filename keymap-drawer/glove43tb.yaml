@@ -71,7 +71,7 @@ layers:
   - {t: LEFT ARROW, h: Ctl+LEFT ARROW}
   - {t: DOWN ARROW, h: Ctl+DOWN ARROW}
   - {t: RIGHT ARROW, h: Ctl+RIGHT ARROW}
-  - ''
+  - _
   - {t: ▽, type: trans}
   - KP DOT
   - KP 0
