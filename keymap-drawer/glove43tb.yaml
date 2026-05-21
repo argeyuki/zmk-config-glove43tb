@@ -72,7 +72,7 @@ layers:
   - {t: DOWN ARROW, h: Ctl+DOWN ARROW}
   - {t: RIGHT ARROW, h: Ctl+RIGHT ARROW}
   - _
-  - {t: ▽, type: trans}
+  - '#'
   - KP DOT
   - KP 0
   - KP 7
