@@ -17,13 +17,19 @@
             ;
 };
 
+// 直前 500ms 以内に打鍵していたら、ボールを動かしてもマウスレイヤーへ切り替えない。
+// 打鍵中の誤爆防止。カーソル移動そのものは常に効く。
+// この項目は listener ではなく処理側（zmk,input-processor-temp-layer）に付ける。
+&zip_temp_layer {
+    require-prior-idle-ms = <500>;
+};
+
 / {
     trackball_listener {
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
         input-processors = <&zip_temp_layer 4 500>;            // オートマウスレイヤー: ボールを動かすと 500ms のあいだレイヤー4を有効化
-        require-prior-idle-ms = <500>;                         // 直前 500ms 以内に打鍵していたら切り替えない（打鍵中の誤爆防止・カーソル移動自体は効く）
 
         scroller {
             layers = <6>;                                      // スクロールレイヤー
