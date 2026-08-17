@@ -1,7 +1,10 @@
-// スクロールの「速さ」。1目盛りの回転で tap-ms=20 だけ実行されるので、
-// 実際に動く量 = この値 x 20 / 1000。50 でホイール1目盛り、100 で2目盛り。
-// 20 まで下げると 0.4 になり切り捨てで一切動かなくなる。
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 50
+// スクロールの「速さ」であって1目盛りあたりの量ではない。
+// ダイヤル1刻みで tap-ms=20 だけ実行され、先頭 delay-ms=3 は待機なので
+// 実際に動く量 = この値 x 17 / 1000（端数は切り捨て）。
+//   実測 150 -> 2.5 = 2目盛り（動きすぎ）
+//        50  -> 0.9 = 0目盛り（全く動かない）
+// ホイール1目盛りを出せるのは 60〜117。100 なら 1.7 で余裕がある。
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 #include <behaviors/rgbled_widget.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
