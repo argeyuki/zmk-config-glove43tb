@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - Sft+Gui+S
+  - Sft+SPACE
   - {t: '-', h: ':'}
   - H
   - J
