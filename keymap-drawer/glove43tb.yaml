@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - {t: ':', h: '@'}
+  - {t: ':', h: ;}
   - '&kana_cycle'
   - {t: N, h: (}
   - {t: M, h: )}
