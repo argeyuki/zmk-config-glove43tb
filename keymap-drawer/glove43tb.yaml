@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - Sft+SPACE
-  - {t: '-', h: ':'}
+  - '&kana_cycle'
   - H
   - J
   - K
@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - B
-  - {t: ;, h: '@'}
-  - {t: Sft+SPACE, h: '?'}
+  - {t: ':', h: '@'}
+  - {t: Sft+`, h: '?'}
   - {t: N, h: (}
   - {t: M, h: )}
   - {t: ',', h: '['}
@@ -112,7 +112,7 @@ layers:
   - $
   - '%'
   - LEFT SHIFT
-  - ''
+  - ;
   - ''
   - ''
   - .
