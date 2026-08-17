@@ -23,6 +23,7 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
         input-processors = <&zip_temp_layer 4 500>;            // オートマウスレイヤー: ボールを動かすと 500ms のあいだレイヤー4を有効化
+        require-prior-idle-ms = <500>;                         // 直前 500ms 以内に打鍵していたら切り替えない（打鍵中の誤爆防止・カーソル移動自体は効く）
 
         scroller {
             layers = <6>;                                      // スクロールレイヤー
